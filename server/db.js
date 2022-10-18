@@ -1,5 +1,7 @@
 const Pool = require("pg").Pool;
 
+
+//Temporary credentials 
 const pool = new Pool({
   host: "localhost",
   user: "postgres",
